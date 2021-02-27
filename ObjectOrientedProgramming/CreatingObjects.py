@@ -4,9 +4,9 @@ class PlayerCharacter:
     membership = True
     # Constructor
 
-    def __init__(self, name, age):
-        if (PlayerCharacter.membership):
-            # if (self.membership):
+    def __init__(self, name='anonymus', age=0):  # Default parameters
+        # if (PlayerCharacter.membership):
+        if (self.membership):
             # Properties
             self.name = name
             self.age = age
