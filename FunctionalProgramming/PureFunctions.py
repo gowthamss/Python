@@ -107,7 +107,7 @@ print('reduce with lambda functions: ', reduce(
 
 
 # Excercise
-# print squares using lambda
+# print sqListCuares using lambda
 lambda_squares = [5, 4, 3]
 print('Squares', list(map(lambda item: item ** 2, lambda_squares)))
 
